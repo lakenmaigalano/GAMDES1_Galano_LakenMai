@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://r0tocm3m4cr8"]
+
+[ext_resource type="Script" uid="uid://bo36ykujhssi" path="res://main.gd" id="1_ig7tw"]
+
+[node name="Main" type="Node2D" unique_id=789986552]
+script = ExtResource("1_ig7tw")
+
+[node name="Player" type="Sprite2D" parent="." unique_id=1690591473]
+
+[node name="Camera" type="Camera2D" parent="Player" unique_id=1804377755]
+
+[node name="ScoreLabel" type="Label" parent="." unique_id=182893191]
+offset_right = 40.0
+offset_bottom = 23.0
