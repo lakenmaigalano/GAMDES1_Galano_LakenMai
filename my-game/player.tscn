@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://cfydv21c13o7k"]
+
+[ext_resource type="Script" uid="uid://crmlrgbxeco2k" path="res://player.gd" id="1_4flbx"]
+[ext_resource type="Texture2D" uid="uid://c87def23ph2hk" path="res://PinguSprite-removebg-preview.png" id="2_onrkg"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_q4xgr"]
+
+[node name="Player" type="CharacterBody2D" unique_id=530441331]
+script = ExtResource("1_4flbx")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=445133509]
+shape = SubResource("RectangleShape2D_q4xgr")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1658149778]
+position = Vector2(212, 138)
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1821963064]
+texture = ExtResource("2_onrkg")
