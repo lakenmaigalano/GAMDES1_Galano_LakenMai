@@ -1,0 +1,7 @@
+res://player.tscn
+res://main.tscn
+res://scripts/player.tscn
+res://player.gd
+res://scenes/obstacle.tscn
+res://scenes/enemy.tscn
+res://scripts/enemy.gd

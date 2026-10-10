@@ -1,0 +1,12 @@
+78098b89c88a74ebe8c20117b8754620
+::res://::1791633056
+icon.svg::CompressedTexture2D::1849754529603859191::1791615963::1791615969::1::::<><><>0<>0<>9ad2503540b9cb225f2f733b2483994b<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+main.tscn::PackedScene::2990530095412041891::1791633056::0::1::::<><><>0<>0<><>::uid://c0h5od2flmjf0::::res://scripts/player.tscn<>uid://s4nmc8mqq0gy::::res://scenes/obstacle.tscn
+player.gd::GDScript::135496300886543585::1791627962::0::1::::<>CharacterBody2D<><>0<>0<><>::
+::res://assets/::1791631494
+Gemini_Generated_Image_ws8wv3ws8wv3ws8w-removebg-preview.png::CompressedTexture2D::5258774957865387743::1791615655::1791630956::1::::<><><>0<>0<>5ab425f4694fdcb1bb7cc803e41a94e0<>res://.godot/imported/Gemini_Generated_Image_ws8wv3ws8wv3ws8w-removebg-preview.png-07479f0d6c858d3b11df6f7d50453c7e.ctex::
+::res://scenes/::1791632857
+obstacle.tscn::PackedScene::1324077047377649672::1791632857::0::1::::<><><>0<>0<><>::
+enemy.tscn::PackedScene::6207550119210774904::1791633175::0::1::::<><><>0<>0<><>::
+::res://scripts/::1791627962
+player.tscn::PackedScene::6543859813035221335::1791627962::0::1::::<><><>0<>0<><>::uid://cg6nixb6uvxo6::::res://assets/Gemini_Generated_Image_ws8wv3ws8wv3ws8w-removebg-preview.png<>uid://b6vussuihhan::::res://player.gd

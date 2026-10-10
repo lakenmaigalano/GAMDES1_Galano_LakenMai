@@ -1,0 +1,37 @@
+[gd_scene format=3 uid="uid://biuvugmy4irvf"]
+
+[ext_resource type="PackedScene" uid="uid://c0h5od2flmjf0" path="res://scripts/player.tscn" id="1_ig7tw"]
+[ext_resource type="PackedScene" uid="uid://s4nmc8mqq0gy" path="res://scenes/obstacle.tscn" id="2_0xm2m"]
+[ext_resource type="PackedScene" uid="uid://cuo8pcyp0haj5" path="res://scenes/enemy.tscn" id="3_h2yge"]
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_q4xgr"]
+distance = 14.0
+
+[node name="Main" type="Node2D" unique_id=150996409]
+position = Vector2(111, 66)
+
+[node name="Player" parent="." unique_id=1634696147 instance=ExtResource("1_ig7tw")]
+position = Vector2(51, 51)
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=369425185]
+position = Vector2(44, 33)
+zoom = Vector2(4, 4)
+
+[node name="Floor" type="StaticBody2D" parent="." unique_id=211325734]
+position = Vector2(25, -15)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Floor" unique_id=229532978]
+position = Vector2(31, 75)
+shape = SubResource("WorldBoundaryShape2D_q4xgr")
+
+[node name="Obstacle" parent="." unique_id=1588048043 instance=ExtResource("2_0xm2m")]
+position = Vector2(401, 549)
+
+[node name="Obstacle2" parent="." unique_id=1160208511 instance=ExtResource("2_0xm2m")]
+position = Vector2(764, 1152)
+
+[node name="Obstacle3" parent="." unique_id=1727065241 instance=ExtResource("2_0xm2m")]
+position = Vector2(1242, 1728)
+
+[node name="Enemy" parent="." unique_id=420642223 instance=ExtResource("3_h2yge")]
+position = Vector2(11, 11)
